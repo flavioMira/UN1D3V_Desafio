@@ -1,0 +1,42 @@
+body {
+background: #f3eadc;
+font-family: arial;
+color:#502314;
+}
+header {
+text-align: center;
+}
+header h1 {
+color: #cc0000;
+font-weight: bold;
+line-height: normal;
+text-align: right;
+font-size: 30px;
+}
+
+header h2{
+color:#502314;
+line-height: 0%;
+text-align: right;
+font-size: 20px;
+top:-10px;
+}
+
+header div{
+display: inline-block;
+margin: 5px;
+position:relative;
+height: 200px;
+}
+
+#advisor {
+text-align: center;
+}
+
+#advisor h1{
+font-size: 25px;
+}
+
+.destaque{
+color: #cc0000;
+}
