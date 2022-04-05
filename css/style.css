@@ -79,11 +79,9 @@ header div img{
 #products li{
     width: 300px;
     height: 296px;
-    background: #FEd8b5;
     display: inline-block;
     border-radius: 12px 12px 0 0;
     overflow: hidden;
-    border: 2px solid #FEd8b5;
 }
 
 #products li:hover, #products li:active{
@@ -93,6 +91,16 @@ header div img{
 
 #products li img{
     height: 177px;
+}
+
+.ativo{
+    background: #FE9738;
+    border: 2px solid #FE9738;
+}
+
+.inativo{
+    background: #FEd8b5;
+    border: 2px solid #FEd8b5;
 }
 
 .image_description{
@@ -150,6 +158,26 @@ header div img{
     background: #fff;
     border-radius: 12px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cupons-wrapper h1{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    top:10px;
+    right: 10px;
+    background: transparent;
+    border: 0px;
+}
+button img{
+    width: 30px;
 }
 
 footer{
