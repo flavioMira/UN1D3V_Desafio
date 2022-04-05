@@ -83,6 +83,7 @@ header div img{
     display: inline-block;
     border-radius: 12px 12px 0 0;
     overflow: hidden;
+    border: 2px solid #FEd8b5;
 }
 
 #products li:hover, #products li:active{
@@ -91,9 +92,53 @@ header div img{
 }
 
 #products li img{
+    height: 177px;
+}
+
+.image_description{
     width: 300px;
     height: 207px;
     background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    height: 50px;
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description h1{
+    margin-top: -5px;
+    color:#cc0000;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.description h2{
+    font-size: 14px;
+    margin:-30px 0 0 0;
+    font-weight: 600;
+}
+.nome{
+    vertical-align: middle;
+}
+
+.preco{
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.preco span{
+    font-size: 39px;
+    color:#cc0000;
+    font-weight: 800;
 }
 
 footer{
