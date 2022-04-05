@@ -107,6 +107,7 @@ header div img{
 .description{
     height: 50px;
     margin:20px;
+    color:#502314;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -139,6 +140,16 @@ header div img{
     font-size: 39px;
     color:#cc0000;
     font-weight: 800;
+}
+
+#cupons-wrapper{
+    position: relative;
+    margin-top: 40px;
+    width: 976px;
+    height: 250px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 footer{
