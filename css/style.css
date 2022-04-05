@@ -21,15 +21,16 @@ header h1 {
     font-weight: 800, Extra Bold;
     text-align: right;
     font-size: 28px;
+    margin:-5px 0 0 0;
 }
 
 header h2{
     color:#502314;
-    font-weight: 600, Semi Bold;
+    font-weight: 600;
     line-height: 0%;
     text-align: right;
     font-size: 18px;
-    top:-10px;
+    margin:5px 0 0 0;
 }
 
 header div img{
@@ -66,6 +67,11 @@ header div img{
     width: 976px;
     height: 630px;
 }
+
+a {
+    scroll-behavior: smooth;
+}
+
 #products ul{
     display: flex;
     width: 100%;
@@ -75,6 +81,7 @@ header div img{
     justify-content: space-between;
     align-content:space-between;
     padding: 0;
+    scroll-behavior: smooth;
 }
 #products li{
     width: 300px;
@@ -82,6 +89,7 @@ header div img{
     display: inline-block;
     border-radius: 12px 12px 0 0;
     overflow: hidden;
+    box-shadow: 0 0 .3em rgb(0,0,0,0.1);
 }
 
 #products li:hover, #products li:active{
@@ -158,9 +166,11 @@ header div img{
     background: #fff;
     border-radius: 12px;
     overflow: hidden;
-    display: flex;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 .3em rgb(0,0,0,0.1);
 }
 
 #cupons-wrapper h1{
@@ -168,11 +178,36 @@ header div img{
     font-weight: 800;
     text-align: center;
 }
+#cupon-text{
+    width: 750px;
+    height: 86px;
+}
+#cupon-code{
+    width: 320px;
+    height: 90px;
+    background: #FEd8b5;
+    padding: 0;
+    border-radius: 0 12px 12px 0;
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+}
+#cupon-id{
+    width: 239px;
+    height: 90px;
+    margin: 0 0 0px 0;
+    background: #f5ebdc;
+    border-left: 4px dotted #FE9738;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 90px;
+}
 
 button {
     position: absolute;
-    top:10px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
     background: transparent;
     border: 0px;
 }
@@ -193,9 +228,8 @@ footer{
 footer div{
     width: 50%;
     text-align: center;
-    font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
