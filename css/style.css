@@ -1,42 +1,83 @@
 body {
-background: #f3eadc;
-font-family: arial;
-color:#502314;
+    background: #f5ebdc;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    color:#502314;
+    margin: 0px;
 }
+
 header {
-text-align: center;
+    width: 100%;
+    height: 225px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 header h1 {
-color: #cc0000;
-font-weight: bold;
-line-height: normal;
-text-align: right;
-font-size: 30px;
+    color: #cc0000;
+    font-weight: 800, Extra Bold;
+    text-align: right;
+    font-size: 28px;
 }
 
 header h2{
-color:#502314;
-line-height: 0%;
-text-align: right;
-font-size: 20px;
-top:-10px;
+    color:#502314;
+    font-weight: 600, Semi Bold;
+    line-height: 0%;
+    text-align: right;
+    font-size: 18px;
+    top:-10px;
 }
 
-header div{
-display: inline-block;
-margin: 5px;
-position:relative;
-height: 200px;
+header div img{
+    margin: 10px;
+}
+
+#main-content {    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #advisor {
-text-align: center;
+    width: 50%;
+    height: 100px;
+    text-align: center;
 }
 
 #advisor h1{
-font-size: 25px;
+    font-size: 20px;
+    font-weight: 600, Semi Bold;
 }
 
 .destaque{
-color: #cc0000;
+    color: #cc0000;
+}
+
+.destaque_dois{
+    color: #FE9738;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 170px;
+    display:flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width: 50%;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
 }
