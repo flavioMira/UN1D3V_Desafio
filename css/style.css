@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background: #f5ebdc;
     width: 100%;
@@ -66,10 +70,6 @@ main {
 #products{
     width: 976px;
     height: 630px;
-}
-
-a {
-    scroll-behavior: smooth;
 }
 
 nav{
@@ -217,6 +217,7 @@ button {
     background: transparent;
     border: 0px;
 }
+
 button img{
     width: 30px;
 }
@@ -231,6 +232,7 @@ footer{
     align-items: center;
     align-self: flex-end;
 }
+
 footer div{
     width: 50%;
     text-align: center;
